@@ -23,7 +23,7 @@ function App() {
   };
   return (
     <main className="  font-Mont h-[100%] bg-VeryLightGrayishBlue">
-      <div className=" absolute w-[80%]  h-[60%]  bg-top 	 left-[62%]  bg-[url('./images/bg-top.svg')] bg-contain "></div>
+      <div className=" absolute w-[80%] bg-no-repeat  h-[60%]  bg-top lg:left-[48%] lg:h-[81%] 	 left-[62%]  bg-[url('./images/bg-top.svg')] bg-contain "></div>
       <div className="     ">
         <h1 className=" text-GrayishBlue text-center text-4xl pt-10 ">
           Our Pricing
@@ -47,8 +47,8 @@ function App() {
         </div>
       </div>
       {/* cards container */}
-      <div className=" relative container mt-8 flex flex-col gap-8 pb-20 ">
-        <div className=" rounded-[10px]  bg-white shadow-lg w-[80%] mx-auto pb-10 p-5 flex flex-col items-center ">
+      <div className=" relative container lg:w-[80%] lg:h-[900px] lg:mx-auto lg:mt-[3rem] lg:flex-row lg:gap-0  mt-8 flex flex-col gap-8 pb-20 ">
+        <div className=" rounded-[10px] lg:h-[650px] mt-10 lg:pt-20   bg-white shadow-lg w-[80%] mx-auto pb-10 p-5 flex flex-col items-center ">
           <h2 className="text-GrayishBlue text-2xl ">Basic</h2>
           <h3 className=" text-[4rem] py-4 text-DarkGrayishBlue ">
             ${firstCardValue}{" "}
@@ -64,7 +64,7 @@ function App() {
             Learn More
           </button>
         </div>
-        <div className=" rounded-[10px]    bg-gradient-to-br from-Lightblue to-purple   shadow-lg w-[80%] mx-auto pb-10 p-5 flex flex-col items-center ">
+        <div className=" rounded-[10px] lg:h-[750px]  lg:pt-20   bg-gradient-to-br from-Lightblue to-purple   shadow-lg w-[80%] mx-auto pb-10 p-5 flex flex-col items-center ">
           <h2 className="text-white text-2xl ">Professional</h2>
           <h3 className=" text-[4rem] py-4 text-white ">${secondCardValue} </h3>
           <div className=" w-[90%] h-[2px] bg-LightGrayishBlue "></div>
@@ -78,7 +78,7 @@ function App() {
             Learn More
           </button>
         </div>
-        <div className=" rounded-[10px]   bg-white shadow-lg w-[80%] mx-auto pb-10 p-5 flex flex-col items-center ">
+        <div className="  rounded-[10px] lg:pt-20 lg:mt-10 lg:h-[650px]  bg-white shadow-lg w-[80%] mx-auto pb-10 p-5 flex flex-col items-center ">
           <h2 className="text-GrayishBlue text-2xl ">Master</h2>
           <h3 className=" text-[4rem] py-4 text-DarkGrayishBlue ">
             ${thirdCardValue}{" "}
